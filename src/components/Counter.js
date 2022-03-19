@@ -3,6 +3,7 @@ import classes from "./Counter.module.css";
 
 const Counter = () => {
   // get store values
+  // useSelector & useDispatch is used only in functional component base 
   const counter = useSelector((state) => { return state.counter});
   const dispatch = useDispatch();
 
