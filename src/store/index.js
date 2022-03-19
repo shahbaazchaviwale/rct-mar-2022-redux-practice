@@ -9,7 +9,7 @@ const counterReducer = (state = {counter: 0}, action) => {
     }
     if(action.type === 'decrement'){
         return {
-            counter: state.counter + 1
+            counter: state.counter - 1
         }
     }
     // this below  state will be unchange/default values
